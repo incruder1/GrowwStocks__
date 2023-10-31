@@ -24,7 +24,7 @@ const Search = () => {
   };
 
   return (
-    <div className="relative z-50 mx-5">
+   <div className="relative z-50 mx-5 ">
       <input
         type="text"
         className="my-3 block w-full appearance-none text-gray-600 rounded-full bg-gray-200 py-2 px-10 pl-10 align-top leading-normal focus:border-gray-500 focus:bg-white focus:outline-none"
