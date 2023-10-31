@@ -104,8 +104,10 @@ const StockChart = (params) => {
 
   return (
     <>
-      <div className="bg-gray-800	p-4 rounded shadow-2xl my-6">
+      <div stle={{ width:'100vw', display:'flex', margin:'auto auto', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+      <div className="bg-gray-800	p-5 rounded shadow-2xl my-6 lg:w-4/5 lg:m-auto flex justify-center items-center" style={{ display:'flex', justifyContent:'center', alignItems:'center'}}>
         <Line
+        // width='500px'
           data={stockData}
           options={{ plugins: { legend: { display: false } } }}
         />
@@ -174,6 +176,7 @@ const StockChart = (params) => {
           All time
         </button>
       </div>
+    </div>
     </>
   );
 };
