@@ -1,6 +1,6 @@
 # Stocks/ETFs Broking Website
 
-This is a web application built using Next.js for a stocks/ETFs broking website. It includes two main pages: Explore Page and Product Page, with common header and search functionality.
+This is a web application built using Next.js for a stocks/ETFs website. It includes two main pages: Explore Page and Product Page, with a common header and search functionality.
 
 ## Pages
 
@@ -39,16 +39,4 @@ To run this application on your local development environment, follow these step
 3. Set up API integration to fetch stock/ETF data.
 4. Run the application using `npm run dev` or `yarn dev`.
 
-Make sure to configure the project and API endpoints as needed.
-
-## Contributors
-
-- [Your Name]
-- [Contributor 2 Name]
-- [Contributor 3 Name]
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to adapt and customize this README to your specific project requirements. Good luck with your Stocks/ETFs Broking Website development!
+Make sure to configure the project and API endpoints as needed.  
