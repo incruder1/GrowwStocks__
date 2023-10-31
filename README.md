@@ -27,8 +27,8 @@ This project utilizes the following technologies:
 
 - [Next.js](https://nextjs.org/): The main framework for building the web application.
 - [React](https://reactjs.org/): Used for building the user interface components.
-- [Charting Library]: To display the line graph of price trends (you can choose a suitable library).
-- [API Integration]: You'll need to integrate with a data source or API to fetch stock/ETF information.
+- [Chart.JS](https://www.chartjs.org/): To display the line graph of price trends (you can choose a suitable library).
+- [AlphaAdvantage](https://www.alphavantage.co): You'll need to integrate with a data source or API to fetch stock/ETF information.
 
 ## Setup and Installation
 
