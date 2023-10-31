@@ -7,10 +7,10 @@ const Products = ({ params }) => {
   const symbol = params.product || "IBM";
 
   return (
-    <>
+    <div style={{display:'flex', width:'100vw', flexDirection:'column', flexWrap:'wrap'}}>
       <PrimarySearchAppBar />
       <ProductDetail symbol={symbol} /> {/* Use the new component and pass the symbol prop */}
-    </>
+    </div>
   );
 };
 
