@@ -22,8 +22,9 @@ const Card = (props) => {
 
   return (
         
-       <div className="bg-gray-400 p-10 m-0 fill-inherit cursor-pointer rounded-md shadow-md text-center overflow-scroll justify-center  " >
-        <div className="flex justify-between mb-2 ">
+     <div className="bg-gray-400 p-10 m-5 w-80 cursor-pointer rounded-md shadow-md text-center  justify-center  " >
+        {/* sm:pl-2 sm:ml-1 */}
+        <div className="flex justify-between mb-2">
           <p className="text-lg font-bold text-black ">{data.ticker}</p>
           <p className="text-base font-semibold" style={triangleStyle}>
             {triangleSymbol} {formattedChangePercentage}
@@ -32,11 +33,11 @@ const Card = (props) => {
         <hr className="mb-2" style={hrStyle} />
 
         <div className="mb-2 text-sm">
-          <p>Price: ${data.price}</p>
+          <p>Price: ${data.price}</p>       
           <p>Volume: {data.volume}</p>
           <p>Change Amount: ${data.change_amount}</p>
         </div>
-      </div>
+        </div>
        
 
   );
