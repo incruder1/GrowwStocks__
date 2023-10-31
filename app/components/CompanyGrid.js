@@ -43,12 +43,9 @@ export default function CompanyGrid(props) {
 
   return (
     <>
-   
-     
-
-      <div className="flex flex-grow-1 mt-6"  >
-        
-          <div className="w-full grid  gap-4 justify-between sm:{grid-cols-2 mx-5} lg:grid-cols-5">
+    <div  style={{display:'flex', flexWrap:'wrap', justifyContent:'center', alignItems:'center', flexDirection:'row'}}>
+           {/* className="w-full grid  gap-4 justify-between  lg:grid-cols-5"> */}
+            {/* sm:{grid-cols-2 mx-5} */}
             {companies.map((company, index) => 
             {if(index<20)
               {
@@ -63,15 +60,13 @@ export default function CompanyGrid(props) {
             }}
             )}
           </div> 
-      </div>
-      <div className=" m-10 p-10 self-center w-full">
+      {/* </div> */}
+      <div className=" self-center w-100vw flex justify-center items-center		">
         <Link href="/explore" >
          
-      <button className="rounded bg-slate-700 h-20 w-40 text-white ">Load More</button>
+      <button className="rounded bg-slate-700 h-fit-content w-fit-content text-white p-1 ">Load More</button>
       </Link>
-            </div>
-      
-            
+            </div>            
     </>
   );
 }
