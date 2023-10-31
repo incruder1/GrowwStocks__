@@ -9,7 +9,7 @@ export async function GET(req, res) {
 
   try {
     const apiResponse = await fetch(
-      `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${symbol}&apikey=TK3TLI4UQ2XK3OBT`
+      `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${symbol}&apikey=1yco`
     );
     const apiData = await apiResponse.json();
     // console.log(apiData);
