@@ -7,7 +7,7 @@ export async function GET(req, res) {
 
   try {
     const response = await fetch(
-      `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${symbol}&apikey=TK3TLI4UQ2XK3OBT`
+      `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${symbol}&apikey=1yco`
     );
     const apiData = await response.json();
     return new Response(
