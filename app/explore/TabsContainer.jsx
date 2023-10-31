@@ -41,10 +41,11 @@ export default function TabsContainer() {
   };
 
   return (
-    <div className="lg:align-center mx-40 mt-10 sm:mx-10 sm:mt-5">
-      <div>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab  label="Top Gainers" {...a11yProps(0)} />
+   <div className="lg:align-center justify-center" >
+     {/* mx-40 mt-10 sm:mx-10 sm:mt-5"> */}
+      <div  style={{width:'100vw', display:'flex', justifyContent:'center', alignItems:'center'}}>
+        <Tabs style={{display:'flex', justifyContent:'center', alignItems:'center'}} value={value} onChange={handleChange} aria-label="basic tabs example">
+          <Tab label="Top Gainers" {...a11yProps(0)} />
           <Tab   label="Top Losers" {...a11yProps(1)} />
           </Tabs>
       </div>
