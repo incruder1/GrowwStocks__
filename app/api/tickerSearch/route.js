@@ -11,7 +11,7 @@ export async function GET(req, res) {
       const apiResponse = await fetch(`https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=${keywords}&apikey=1yco`);
       const apiData = await apiResponse.json();
       const name = apiData.bestMatches;
-      console.log(name)
+      // console.log(name)
       return new Response(JSON.stringify({ name: name }));
     } catch (error) {
       console.error(`Error: ${error.message}`);
