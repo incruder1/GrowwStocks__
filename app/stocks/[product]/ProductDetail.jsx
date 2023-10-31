@@ -43,8 +43,7 @@ const ProductDetail = ({ symbol }) => {
   }
 
   return (
-    <>
-      <div className="mx-52 my-10">
+    <div className=" my-10" style={{width:'100vw'}}>
         <div className="flex flex-row justify-between items-center">
           <div>
             <Image
@@ -64,9 +63,10 @@ const ProductDetail = ({ symbol }) => {
           </div>
         </div>
 
+        <div stle={{ width:'100vw', display:'flex', margin:'auto auto', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
         <StockChart symbol={symbol} />
-
-        <div className="my-6 bg-white">
+        </div>
+        <div className="my-6 mx-5 bg-white">
           <h1 className="text-xl font-semibold">About section</h1>
           <p className="text-sm">{data.Description}</p>
         </div>
@@ -129,7 +129,6 @@ const ProductDetail = ({ symbol }) => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 
