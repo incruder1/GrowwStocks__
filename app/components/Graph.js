@@ -113,7 +113,7 @@ const StockChart = (params) => {
         />
       </div>
 
-      <div className="inline-flex rounded-md shadow-sm my-10" role="group">
+      <div className="inline-flex rounded-md shadow-sm my-10 mx-10" role="group">
         <button
           type="button"
           onClick={() => {
