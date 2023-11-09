@@ -3,6 +3,11 @@
 This is a web application built using Next.js for a stocks/ETFs website. It includes two main pages: Explore Page and Product Page, with a common header and search functionality.
 
 ## Pages
+![up](https://github.com/incruder1/GrowwStocks__/assets/56020041/49631d6a-3833-4512-84d0-2f038a823f79)
+![down](https://github.com/incruder1/GrowwStocks__/assets/56020041/a206248e-dd15-4f9e-bea7-185a087dba53)
+![4](https://github.com/incruder1/GrowwStocks__/assets/56020041/a6b30d76-b786-445a-8eb8-88a70af0f5dd)
+
+![3](https://github.com/incruder1/GrowwStocks__/assets/56020041/8bede1de-fb25-471f-beaf-a8a25516e355)
 
 ### Explore Page
 
