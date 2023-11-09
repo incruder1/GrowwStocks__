@@ -71,7 +71,7 @@ const ProductDetail = ({ symbol }) => {
           <p className="text-sm">{data.Description}</p>
         </div>
 
-        <div className="flex flex-row justify-between mt-4 p-4">
+        <div className="flex flex-row justify-between mt-4 mr-5 p-4">
           <div>
             <p className="text-sm">52 week low</p>
             <h2 className="text-lg font-semibold">{data["52WeekLow"]}</h2>
@@ -103,7 +103,7 @@ const ProductDetail = ({ symbol }) => {
           </div>
         </div>
 
-        <div className="flex felx-row justify-between flex-wrap">
+        <div className="flex flex-row justify-between flex-wrap mr-5">
           <div className="p-4 bg-white my-2">
             <h2 className="text-sm font-semibold">Market Cap</h2>
             <p className="text-sm">{data.MarketCapitalization}</p>
